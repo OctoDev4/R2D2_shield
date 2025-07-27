@@ -17,6 +17,6 @@ R2D2 Shield listens to ARP traffic on the specified network interface. When it d
 
 🚀 Usage
 ```bash
-python r2d2_shield.py -i wlan0
+python main.py -i wlan0
 #Replace wlan0 with your desired network interface.
 ```
