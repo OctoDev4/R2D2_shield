@@ -16,6 +16,7 @@ R2D2 Shield is a simple yet powerful network security tool designed to detect AR
 R2D2 Shield listens to ARP traffic on the specified network interface. When it detects an ARP reply (op=2), it checks whether the MAC address associated with the source IP matches the real MAC obtained via an ARP request. If there's a mismatch, it raises an alert—just like R2D2 flashing a warning light!
 
 🚀 Usage
-bash
+```bash
 python r2d2_shield.py -i wlan0
-Replace wlan0 with your desired network interface.
+#Replace wlan0 with your desired network interface.
+```
